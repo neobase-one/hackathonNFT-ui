@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 18px;
+  }
+
+  :root {
+    --color-primary: rgb(236 231 204);
+  }
+
+  body {
+    @apply font-handwriting;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  /* empty */
+}
+
+@layer utilities {
+  /* empty */
+}

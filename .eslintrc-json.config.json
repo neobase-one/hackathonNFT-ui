@@ -1,0 +1,8 @@
+{
+  "plugins": [],
+  "extends": [
+    "plugin:json/recommended-with-comments",
+    "prettier"
+  ],
+  "rules": {}
+}
